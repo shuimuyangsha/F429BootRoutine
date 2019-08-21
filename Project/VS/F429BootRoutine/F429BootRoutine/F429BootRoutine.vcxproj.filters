@@ -1,0 +1,847 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{ada757a6-93a0-4603-a231-a4663994a393}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{de173d31-e4fd-4d14-97a5-753f2a3a347a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{05548f1e-983e-4ba3-8682-5c937e9ba3dd}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\STARTUP">
+      <UniqueIdentifier>{dca841f2-c82a-4ef1-9b48-ff6f15ea6f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\CMSIS">
+      <UniqueIdentifier>{f6257e29-1056-4e90-92ee-f1f0deaf16d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32F4xx_StdPeriph_Driver">
+      <UniqueIdentifier>{c69d2230-6475-434d-8664-92a56e0fd968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USER">
+      <UniqueIdentifier>{3f27d058-4a6e-49d3-88a7-14a44487d797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BSP">
+      <UniqueIdentifier>{6600257a-0776-45f0-b99e-aa64c32d3973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\uCOSIII_CPU">
+      <UniqueIdentifier>{aff9c3d2-43fc-4c5e-975e-d9201940a528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\uCOSIII_LIB">
+      <UniqueIdentifier>{26d78abb-2762-4e68-aec6-0676e304128b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\uCOSIII_Source">
+      <UniqueIdentifier>{681da0ac-a874-4384-bf1f-32ec5cac9d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\uCOSIII_Port">
+      <UniqueIdentifier>{0f0addf6-b60b-4351-871c-77be6513ce90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\os_cfg">
+      <UniqueIdentifier>{19859e3c-dfca-4d43-a297-adcc4b130c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\emWin">
+      <UniqueIdentifier>{a4e4d801-b16f-4264-b9ee-58f75df68eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\FatFS">
+      <UniqueIdentifier>{77ecb412-db5d-46fc-8b80-a515f02ed4ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\APP">
+      <UniqueIdentifier>{aecc5d6c-54a6-4375-ac7d-3165f22b2a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\MPU_eMPL">
+      <UniqueIdentifier>{27bdf3b1-1bb1-4c03-8a9e-5be39c9aea33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\MPU_mllite">
+      <UniqueIdentifier>{2725fb2b-5a04-4bcd-a8fa-20e20745987d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\MPU_mpl">
+      <UniqueIdentifier>{1ee90b5b-19bd-4e81-add5-3e1471c2254d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip">
+      <UniqueIdentifier>{94906f06-03b4-4e8a-bc72-16daa9741341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USB Driver">
+      <UniqueIdentifier>{88f8679e-16ed-4ab2-ac95-3cdd07277b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USB Device">
+      <UniqueIdentifier>{8cd71972-3c5f-4588-b0b4-bd2a1403da24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USB_App">
+      <UniqueIdentifier>{bb9264d7-e31b-486a-8652-4748952cc4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\MP3">
+      <UniqueIdentifier>{ebe0744c-2e7a-47f4-9063-f2c7de8a89ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\::CMSIS">
+      <UniqueIdentifier>{cc9aa934-d2ad-4192-b477-9f795bc11d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{908bfa47-5432-43c9-a924-cb4d8bc8528a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STARTUP">
+      <UniqueIdentifier>{2701fd01-4780-44c9-ab07-2b0549b860ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\CMSIS">
+      <UniqueIdentifier>{e8d902c1-b1f3-4427-8979-b801eeffc646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32F4xx_StdPeriph_Driver">
+      <UniqueIdentifier>{224ce840-caf4-4c68-ab0f-6333a402ce32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USER">
+      <UniqueIdentifier>{ccb1b83e-7fa3-4cde-93fd-85a0d8c4d74f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BSP">
+      <UniqueIdentifier>{194ec834-0aa3-4cb8-ba5d-c198d3b3b4a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\uCOSIII_CPU">
+      <UniqueIdentifier>{a036c684-1fd1-48a3-b08f-75a9b27c3c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\uCOSIII_LIB">
+      <UniqueIdentifier>{c5b9e697-a5c7-4509-b3e5-b3f2d648b16d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\uCOSIII_Source">
+      <UniqueIdentifier>{fae135f2-8374-4f48-bb5a-5f6dda31b30b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\uCOSIII_Port">
+      <UniqueIdentifier>{a20c9ac6-54f5-41cf-b5e7-b070e209a1ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\os_cfg">
+      <UniqueIdentifier>{1507a1ad-2491-46af-904c-f1410525b913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\emWin">
+      <UniqueIdentifier>{29d0bf6f-66b0-4507-9462-24a8824c83d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\FatFS">
+      <UniqueIdentifier>{747724df-20cc-4845-99d3-1d6651d1c32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\APP">
+      <UniqueIdentifier>{042cf5a6-30a2-4937-b4f1-90a51b880d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\MPU_eMPL">
+      <UniqueIdentifier>{fbbeeae5-aeea-4a01-a5b6-0df6b2ff61db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\MPU_mllite">
+      <UniqueIdentifier>{bade32eb-4c5d-4394-94c2-284cf7908ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\MPU_mpl">
+      <UniqueIdentifier>{0492685e-70cc-42c3-9932-e7739f94adc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip">
+      <UniqueIdentifier>{729283ea-3db2-41ac-b3de-1fe945bc1bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USB Driver">
+      <UniqueIdentifier>{aaba9b2e-43ce-421e-a515-1a97e75ed4a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USB Device">
+      <UniqueIdentifier>{1bc31b32-dc56-4440-b909-c183d15014a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USB_App">
+      <UniqueIdentifier>{287cd861-a8d8-4a96-87e7-def123b21dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\MP3">
+      <UniqueIdentifier>{3e4f0d92-c9a4-4076-a52e-3f82bea60a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\::CMSIS">
+      <UniqueIdentifier>{765de763-7b94-4b2c-93cb-40dbebea9321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{3c733ec6-3750-44c9-882f-170439a58254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{ce85c7c3-2cc0-4d25-819c-b6e9d5f9cde9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c">
+      <Filter>Source files\CMSIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cec.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_crc.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_aes.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_tdes.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma2d.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmc.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmpi2c.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_md5.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_sha1.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_ltdc.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_pwr.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_qspi.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sai.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_wwdg.c">
+      <Filter>Source files\STM32F4xx_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\main.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\stm32f4xx_it.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\bsp.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\led\bsp_led.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\usart\bsp_debug_usart.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\beep\bsp_beep.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\TouchPad\bsp_touchpad.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\key\bsp_key.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\cpu_bsp.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\lcd\bsp_lcd.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\sdram\bsp_sdram.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\touch\bsp_i2c_touch.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\touch\gt9xx.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\wm8978\bsp_wm8978.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\humiture\humiture.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\bh1750\bsp_bh1750.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\sersor_i2c\sersor_i2c.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\exti\bsp_exti.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\RTC\bsp_rtc.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\LAN8742A\LAN8742A.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\LAN8742A\stm32f429_eth.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\ov2640\bsp_ov2640.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\sim900a\bsp_sim900a.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\sim900a\bsp_usart_gsm.c">
+      <Filter>Source files\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uC-CPU\cpu_c.c">
+      <Filter>Source files\uCOSIII_CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uC-CPU\cpu_core.c">
+      <Filter>Source files\uCOSIII_CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uC-LIB\lib_ascii.c">
+      <Filter>Source files\uCOSIII_LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uC-LIB\lib_math.c">
+      <Filter>Source files\uCOSIII_LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uC-LIB\lib_mem.c">
+      <Filter>Source files\uCOSIII_LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uC-LIB\lib_str.c">
+      <Filter>Source files\uCOSIII_LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uCOS-III\Source\os_cfg_app.c">
+      <Filter>Source files\uCOSIII_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uCOS-III\Source\os_core.c">
+      <Filter>Source files\uCOSIII_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uCOS-III\Source\os_dbg.c">
+      <Filter>Source files\uCOSIII_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uCOS-III\Source\os_flag.c">
+      <Filter>Source files\uCOSIII_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uCOS-III\Source\os_int.c">
+      <Filter>Source files\uCOSIII_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uCOS-III\Source\os_mem.c">
+      <Filter>Source files\uCOSIII_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uCOS-III\Source\os_msg.c">
+      <Filter>Source files\uCOSIII_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uCOS-III\Source\os_mutex.c">
+      <Filter>Source files\uCOSIII_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uCOS-III\Source\os_pend_multi.c">
+      <Filter>Source files\uCOSIII_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uCOS-III\Source\os_prio.c">
+      <Filter>Source files\uCOSIII_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uCOS-III\Source\os_q.c">
+      <Filter>Source files\uCOSIII_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uCOS-III\Source\os_sem.c">
+      <Filter>Source files\uCOSIII_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uCOS-III\Source\os_stat.c">
+      <Filter>Source files\uCOSIII_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uCOS-III\Source\os_task.c">
+      <Filter>Source files\uCOSIII_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uCOS-III\Source\os_tick.c">
+      <Filter>Source files\uCOSIII_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uCOS-III\Source\os_time.c">
+      <Filter>Source files\uCOSIII_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uCOS-III\Source\os_tmr.c">
+      <Filter>Source files\uCOSIII_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uCOS-III\Source\os_var.c">
+      <Filter>Source files\uCOSIII_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uCOS-III\Ports\os_cpu_c.c">
+      <Filter>Source files\uCOSIII_Port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\os_cfg\os_app_hooks.c">
+      <Filter>Source files\os_cfg</Filter>
+    </ClCompile>
+    <Library Include="..\..\..\..\emWin\Lib\STemWin528_CM4_OS_Keil.lib">
+      <Filter>Source files\emWin</Filter>
+    </Library>
+    <ClCompile Include="..\..\..\..\emWin\Config\GUIConf.c">
+      <Filter>Source files\emWin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\emWin\Config\GUIDRV_wf.c">
+      <Filter>Source files\emWin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\emWin\OS\GUI_X_uCOS.c">
+      <Filter>Source files\emWin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FATFS\diskio.c">
+      <Filter>Source files\FatFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FATFS\ff.c">
+      <Filter>Source files\FatFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FATFS\option\cc936.c">
+      <Filter>Source files\FatFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FATFS\drivers\fatfs_flash_spi.c">
+      <Filter>Source files\FatFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FATFS\drivers\fatfs_sd_sdio.c">
+      <Filter>Source files\FatFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FATFS\drivers\fatfs_usb.c">
+      <Filter>Source files\FatFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FATFS\firecc936.c">
+      <Filter>Source files\FatFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\APP\app.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\APP\appicon.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\APP\rgbledDLG.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\APP\pysearch.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\APP\keypadapp.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\APP\musicDLG.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\APP\common.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\APP\RecorderDLG.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\APP\WeatherDLG.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\APP\CompassDLG.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\APP\ClockDLG.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\APP\NetworkDLG.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\lwipapp\netconf.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\lwipapp\tcp_echoclient.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\lwipapp\tcp_echoserver.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\lwipapp\udp_echoclient.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\APP\CameraDLG.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\APP\PhoneDLG.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\APP\MessageDLG.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\APP\PictureDLG.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\APP\USBDLG.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\APP\CalculatorDLG.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\mpu6050\driver\eMPL\inv_mpu.c">
+      <Filter>Source files\MPU_eMPL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\mpu6050\driver\eMPL\inv_mpu_dmp_motion_driver.c">
+      <Filter>Source files\MPU_eMPL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\mpu6050\driver\stm32L\log_stm32.c">
+      <Filter>Source files\MPU_eMPL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\mpu6050\eMPL-hal\eMPL_outputs.c">
+      <Filter>Source files\MPU_eMPL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\mpu6050\mpu6050.c">
+      <Filter>Source files\MPU_eMPL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\mpu6050\mllite\data_builder.c">
+      <Filter>Source files\MPU_mllite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\mpu6050\mllite\hal_outputs.c">
+      <Filter>Source files\MPU_mllite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\mpu6050\mllite\message_layer.c">
+      <Filter>Source files\MPU_mllite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\mpu6050\mllite\ml_math_func.c">
+      <Filter>Source files\MPU_mllite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\mpu6050\mllite\mlmath.c">
+      <Filter>Source files\MPU_mllite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\mpu6050\mllite\mpl.c">
+      <Filter>Source files\MPU_mllite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\mpu6050\mllite\results_holder.c">
+      <Filter>Source files\MPU_mllite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\mpu6050\mllite\start_manager.c">
+      <Filter>Source files\MPU_mllite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\Bsp\mpu6050\mllite\storage_manager.c">
+      <Filter>Source files\MPU_mllite</Filter>
+    </ClCompile>
+    <Library Include="..\..\..\..\USER\Bsp\mpu6050\mpl\libmpllib_Keil_M4FP\libmpllib.lib">
+      <Filter>Source files\MPU_mpl</Filter>
+    </Library>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\api\api_lib.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\api\api_msg.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\api\err.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\api\netbuf.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\api\netdb.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\api\netifapi.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\api\sockets.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\api\tcpip.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\def.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\dhcp.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\dns.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\init.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\mem.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\memp.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\netif.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\pbuf.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\raw.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\stats.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\sys.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\tcp.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\tcp_in.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\tcp_out.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\timers.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\udp.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\ipv4\autoip.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\ipv4\icmp.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\ipv4\igmp.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\ipv4\inet.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\ipv4\inet_chksum.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\ipv4\ip.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\ipv4\ip_addr.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\core\ipv4\ip_frag.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\src\netif\etharp.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lwip-1.4.1\port\Standalone\ethernetif.c">
+      <Filter>Source files\lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32_USB_OTG_Driver\src\usb_core.c">
+      <Filter>Source files\USB Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32_USB_OTG_Driver\src\usb_dcd.c">
+      <Filter>Source files\USB Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32_USB_OTG_Driver\src\usb_dcd_int.c">
+      <Filter>Source files\USB Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32_USB_Device_Library\Class\msc\src\usbd_msc_bot.c">
+      <Filter>Source files\USB Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32_USB_Device_Library\Class\msc\src\usbd_msc_core.c">
+      <Filter>Source files\USB Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32_USB_Device_Library\Class\msc\src\usbd_msc_data.c">
+      <Filter>Source files\USB Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32_USB_Device_Library\Class\msc\src\usbd_msc_scsi.c">
+      <Filter>Source files\USB Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32_USB_Device_Library\Core\src\usbd_core.c">
+      <Filter>Source files\USB Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32_USB_Device_Library\Core\src\usbd_ioreq.c">
+      <Filter>Source files\USB Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\STM32_USB_Device_Library\Core\src\usbd_req.c">
+      <Filter>Source files\USB Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\USB_App\usb_bsp.c">
+      <Filter>Source files\USB_App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\USB_App\usbd_storage_msd.c">
+      <Filter>Source files\USB_App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\USB_App\usbd_usr.c">
+      <Filter>Source files\USB_App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\USB_App\usbd_desc.c">
+      <Filter>Source files\USB_App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\mp3\mp3dec.c">
+      <Filter>Source files\MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\mp3\mp3tabs.c">
+      <Filter>Source files\MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\mp3\real\bitstream.c">
+      <Filter>Source files\MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\mp3\real\buffers.c">
+      <Filter>Source files\MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\mp3\real\dct32.c">
+      <Filter>Source files\MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\mp3\real\dequant.c">
+      <Filter>Source files\MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\mp3\real\dqchan.c">
+      <Filter>Source files\MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\mp3\real\huffman.c">
+      <Filter>Source files\MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\mp3\real\hufftabs.c">
+      <Filter>Source files\MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\mp3\real\imdct.c">
+      <Filter>Source files\MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\mp3\real\scalfact.c">
+      <Filter>Source files\MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\mp3\real\stproc.c">
+      <Filter>Source files\MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\mp3\real\subband.c">
+      <Filter>Source files\MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\mp3\real\trigtabs.c">
+      <Filter>Source files\MP3</Filter>
+    </ClCompile>
+    <None Include="mcu.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClInclude Include="..\..\..\..\USER\Bsp\bsp.h">
+      <Filter>Header files\BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\uCOS_III\uC-CPU\cpu.h">
+      <Filter>Header files\uCOSIII_CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\uCOS_III\uC-CPU\cpu_core.h">
+      <Filter>Header files\uCOSIII_CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\uCOS_III\uC-CPU\cpu_def.h">
+      <Filter>Header files\uCOSIII_CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\uCOS_III\uC-LIB\lib_ascii.h">
+      <Filter>Header files\uCOSIII_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\uCOS_III\uC-LIB\lib_def.h">
+      <Filter>Header files\uCOSIII_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\uCOS_III\uC-LIB\lib_math.h">
+      <Filter>Header files\uCOSIII_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\uCOS_III\uC-LIB\lib_mem.h">
+      <Filter>Header files\uCOSIII_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\uCOS_III\uC-LIB\lib_str.h">
+      <Filter>Header files\uCOSIII_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\uCOS_III\uCOS-III\Ports\os_cpu.h">
+      <Filter>Header files\uCOSIII_Port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\USER\os_cfg\os_app_hooks.h">
+      <Filter>Header files\os_cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\USER\os_cfg\app_cfg.h">
+      <Filter>Header files\os_cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\USER\os_cfg\cpu_cfg.h">
+      <Filter>Header files\os_cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\USER\os_cfg\lib_cfg.h">
+      <Filter>Header files\os_cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\USER\os_cfg\os_cfg.h">
+      <Filter>Header files\os_cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\USER\os_cfg\os_cfg_app.h">
+      <Filter>Header files\os_cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\USER\os_cfg\includes.h">
+      <Filter>Header files\os_cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\USER\APP\app.h">
+      <Filter>Header files\APP</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <None Include="F429BootRoutine-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="F429BootRoutine-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="MCU.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <ClCompile Include="..\..\..\..\uCOS_III\uC-CPU\cpu_a.s">
+      <Filter>Source files\uCOSIII_CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uC-LIB\lib_mem_a.s">
+      <Filter>Source files\uCOSIII_LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\uCOS_III\uCOS-III\Ports\os_cpu_a.s">
+      <Filter>Source files\uCOSIII_Port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f429_439xx.s">
+      <Filter>Source files\STARTUP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\mp3\real\arm\asmmisc.s">
+      <Filter>Source files\MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\mp3\real\arm\asmpoly_thumb2.s">
+      <Filter>Source files\MP3</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

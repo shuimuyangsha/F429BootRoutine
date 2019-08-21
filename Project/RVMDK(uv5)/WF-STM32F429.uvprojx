@@ -10,6 +10,7 @@
       <TargetName>STM32F429</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
+      <pCCUsed>5060300::V5.06 update 3 (build 300)::ARMCC</pCCUsed>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32F429IGTx</Device>
@@ -124,47 +125,6 @@
             <HexOffset>0</HexOffset>
             <Oh166RecLen>16</Oh166RecLen>
           </OPTHX>
-          <Simulator>
-            <UseSimulator>0</UseSimulator>
-            <LoadApplicationAtStartup>1</LoadApplicationAtStartup>
-            <RunToMain>1</RunToMain>
-            <RestoreBreakpoints>1</RestoreBreakpoints>
-            <RestoreWatchpoints>1</RestoreWatchpoints>
-            <RestoreMemoryDisplay>1</RestoreMemoryDisplay>
-            <RestoreFunctions>1</RestoreFunctions>
-            <RestoreToolbox>1</RestoreToolbox>
-            <LimitSpeedToRealTime>0</LimitSpeedToRealTime>
-            <RestoreSysVw>1</RestoreSysVw>
-          </Simulator>
-          <Target>
-            <UseTarget>1</UseTarget>
-            <LoadApplicationAtStartup>1</LoadApplicationAtStartup>
-            <RunToMain>1</RunToMain>
-            <RestoreBreakpoints>1</RestoreBreakpoints>
-            <RestoreWatchpoints>1</RestoreWatchpoints>
-            <RestoreMemoryDisplay>1</RestoreMemoryDisplay>
-            <RestoreFunctions>0</RestoreFunctions>
-            <RestoreToolbox>1</RestoreToolbox>
-            <RestoreTracepoints>1</RestoreTracepoints>
-            <RestoreSysVw>1</RestoreSysVw>
-          </Target>
-          <RunDebugAfterBuild>0</RunDebugAfterBuild>
-          <TargetSelection>12</TargetSelection>
-          <SimDlls>
-            <CpuDll></CpuDll>
-            <CpuDllArguments></CpuDllArguments>
-            <PeripheralDll></PeripheralDll>
-            <PeripheralDllArguments></PeripheralDllArguments>
-            <InitializationFile></InitializationFile>
-          </SimDlls>
-          <TargetDlls>
-            <CpuDll></CpuDll>
-            <CpuDllArguments></CpuDllArguments>
-            <PeripheralDll></PeripheralDll>
-            <PeripheralDllArguments></PeripheralDllArguments>
-            <InitializationFile></InitializationFile>
-            <Driver>BIN\CMSIS_AGDI.dll</Driver>
-          </TargetDlls>
         </DebugOption>
         <Utilities>
           <Flash1>
@@ -229,6 +189,7 @@
             <useUlib>1</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
+            <nSecure>0</nSecure>
             <RoSelD>3</RoSelD>
             <RwSelD>3</RwSelD>
             <CodeSel>0</CodeSel>
@@ -365,6 +326,11 @@
             <useXO>0</useXO>
             <v6Lang>0</v6Lang>
             <v6LangP>0</v6LangP>
+            <vShortEn>1</vShortEn>
+            <vShortWch>1</vShortWch>
+            <v6Lto>0</v6Lto>
+            <v6WtE>0</v6WtE>
+            <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define>STM32F429_439xx,USE_STDPERIPH_DRIVER,USE_DMP,MPL_LOG_NDEBUG=1,EMPL,MPU6050,EMPL_TARGET_STM32F4,USE_USB_OTG_HS,USE_EMBEDDED_PHY</Define>
@@ -382,6 +348,7 @@
             <NoWarn>0</NoWarn>
             <uSurpInc>0</uSurpInc>
             <useXO>0</useXO>
+            <uClangAs>0</uClangAs>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define></Define>
@@ -567,6 +534,11 @@
                     <useXO>2</useXO>
                     <v6Lang>0</v6Lang>
                     <v6LangP>0</v6LangP>
+                    <vShortEn>2</vShortEn>
+                    <vShortWch>2</vShortWch>
+                    <v6Lto>0</v6Lto>
+                    <v6WtE>2</v6WtE>
+                    <v6Rtti>2</v6Rtti>
                     <VariousControls>
                       <MiscControls></MiscControls>
                       <Define></Define>
@@ -823,11 +795,6 @@
               <FilePath>..\..\uCOS_III\uC-CPU\cpu.h</FilePath>
             </File>
             <File>
-              <FileName>cpu_a.asm</FileName>
-              <FileType>2</FileType>
-              <FilePath>..\..\uCOS_III\uC-CPU\cpu_a.asm</FilePath>
-            </File>
-            <File>
               <FileName>cpu_c.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\uCOS_III\uC-CPU\cpu_c.c</FilePath>
@@ -846,6 +813,11 @@
               <FileName>cpu_def.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\..\uCOS_III\uC-CPU\cpu_def.h</FilePath>
+            </File>
+            <File>
+              <FileName>cpu_a.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\..\uCOS_III\uC-CPU\cpu_a.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -888,11 +860,6 @@
               <FilePath>..\..\uCOS_III\uC-LIB\lib_mem.h</FilePath>
             </File>
             <File>
-              <FileName>lib_mem_a.asm</FileName>
-              <FileType>2</FileType>
-              <FilePath>..\..\uCOS_III\uC-LIB\lib_mem_a.asm</FilePath>
-            </File>
-            <File>
               <FileName>lib_str.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\uCOS_III\uC-LIB\lib_str.c</FilePath>
@@ -901,6 +868,11 @@
               <FileName>lib_str.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\..\uCOS_III\uC-LIB\lib_str.h</FilePath>
+            </File>
+            <File>
+              <FileName>lib_mem_a.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\..\uCOS_III\uC-LIB\lib_mem_a.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -1008,14 +980,14 @@
               <FilePath>..\..\uCOS_III\uCOS-III\Ports\os_cpu.h</FilePath>
             </File>
             <File>
-              <FileName>os_cpu_a.asm</FileName>
-              <FileType>2</FileType>
-              <FilePath>..\..\uCOS_III\uCOS-III\Ports\os_cpu_a.asm</FilePath>
-            </File>
-            <File>
               <FileName>os_cpu_c.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\uCOS_III\uCOS-III\Ports\os_cpu_c.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_cpu_a.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\..\uCOS_III\uCOS-III\Ports\os_cpu_a.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -1142,6 +1114,11 @@
                     <useXO>2</useXO>
                     <v6Lang>0</v6Lang>
                     <v6LangP>0</v6LangP>
+                    <vShortEn>2</vShortEn>
+                    <vShortWch>2</vShortWch>
+                    <v6Lto>0</v6Lto>
+                    <v6WtE>2</v6WtE>
+                    <v6Rtti>2</v6Rtti>
                     <VariousControls>
                       <MiscControls></MiscControls>
                       <Define></Define>

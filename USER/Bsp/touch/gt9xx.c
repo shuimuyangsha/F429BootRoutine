@@ -472,8 +472,8 @@ Output:
     uint8_t cfg_info[] = CTP_CFG_GROUP1;
     uint8_t cfg_info_len =CFG_GROUP_LEN(cfg_info) ;
 
-    uint8_t cfg_num =0x80FE-0x8047+1 ;		//需要配置的寄存器个数
-
+	uint8_t cfg_num;
+	cfg_num = 0x80FE - 0x8047 + 1;		//需要配置的寄存器个数
     GTP_DEBUG_FUNC();
 
 
